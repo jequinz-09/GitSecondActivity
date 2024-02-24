@@ -1,0 +1,47 @@
+body {
+    background-color: aqua;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    /* Adjust as needed */
+    margin: 20px auto;
+}
+
+.title {
+    flex: 1;
+}
+
+.header h1,
+.header h2 {
+    margin: 0;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #000;
+    padding: 8px;
+    background-color: white;
+}
+
+th {
+    background-color: aquamarine;
+}
