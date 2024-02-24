@@ -49,3 +49,53 @@ th {
 img {
     width: 10%;
 }
+
+
+.video-container {
+    max-width: 800px;
+    /* Adjust as needed */
+    margin: 0 auto;
+    text-align: center;
+}
+
+.video-container h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.video-container p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.video-container video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.audio-container {
+    max-width: 800px;
+    /* Adjust as needed */
+    margin: 20px auto;
+    text-align: center;
+}
+
+.audio-container h3 {
+    font-size: 24px;
+    color: #333;
+}
+
+.audio-container p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.audio-container audio {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
