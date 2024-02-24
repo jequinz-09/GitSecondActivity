@@ -99,3 +99,18 @@ img {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
+
+
+.date-time-container {
+    max-width: 800px;
+    /* Adjust as needed */
+    margin: 20px auto;
+    text-align: center;
+}
+
+.date-time-container p {
+    font-size: 16px;
+    color: #de2818;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
